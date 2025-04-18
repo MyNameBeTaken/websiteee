@@ -5,6 +5,12 @@ function showMessage() {
 
 showMessage()
 
+function a() { 
+        document.getElementById("message").innerText = "you liked this picture";
+    }
+function b() { 
+    document.getElementById("message").innerText = "You disliked this picture";
+    }
 
 function changeBgColor1() {
     document.body.style.backgroundImage = "url('EVA.jpg')"
